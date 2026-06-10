@@ -10,7 +10,20 @@ website:
       - href: index.qmd
         text: Home
 
+      - href: research.qmd
+        text: Research
+
+      - href: publications.qmd
+        text: Publications
+
+      - href: beyond-academia.qmd
+        text: Beyond Academia
+
     right:
+      - icon: file-earmark-person
+        href: files/cv.pdf
+        aria-label: CV
+
       - icon: github
         href: https://github.com/AuroraFaureRagani
         aria-label: GitHub

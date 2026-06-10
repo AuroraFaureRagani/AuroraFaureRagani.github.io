@@ -1,0 +1,10 @@
+---
+title: "Publications"
+subtitle: "A selection of my recent publications and preprints"
+bibliography: publications.bib
+nocite: |
+  @*
+link-bibliography: true
+---
+
+## Journal articles and preprints

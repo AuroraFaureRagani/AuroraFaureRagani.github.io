@@ -1,6 +1,6 @@
 ---
 title: "Aurora Faure Ragani"
-subtitle: "PhD candidate at Mathematical Institute of Utrecht University and Institute of Marine and Atmospheric Research Utrecht (IMAU)"
+subtitle: "PhD candidate in applied mathematics at Utrecht University"
 image: images/profile.jpg
 
 about:
@@ -26,9 +26,11 @@ about:
       href: files/cv.pdf
 ---
 
-I am an applied mathematician interested in the dynamics, resilience and control of environmental systems. My research focuses on mathematical models of dryland models with spatial heterogeneity and targeted interventions in systems at risk of abrupt change.
+I am an applied mathematician and PhD candidate at Utrecht University's Mathematical Institute and the Institute for Marine and Atmospheric Research Utrecht (IMAU).
 
-I am particularly interested in understanding how spatial structure influences degradation and recovery, and how optimisation can help identify effective intervention strategies under limited resources.
+My research focuses on the mathematical models of dryland ecosystems, with an emphasis on spatial heterogeneity, tipping dynamics, and targeted interventions in systems at risk of abrupt change.
+
+I am interested in understanding how spatial structure influences environmental degradation and recovery, and how optimisation can help identify effective intervention strategies under limited resources.
 
 ## Research interests
 
@@ -40,4 +42,4 @@ I am particularly interested in understanding how spatial structure influences d
 
 ## Beyond academia
 
-Beyond my academic activity as a PhD candidate, I am involved in artistic gymnastics as a coach at Turn4U (Utrecht) at various different levels. I also enjoy travelling, both at sea and on land, have a look at my most recent travels on my [Instagram](https://www.instagram.com/aurorafaureragani/).
+Outside academia, I coach artistic gymnastics at Turn4U in Utrecht, working with gymnasts across several levels. I also enjoy travelling by land and sea. Some of my recent travels are documented here [link].
