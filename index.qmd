@@ -15,7 +15,7 @@ about:
 
     - icon: github
       text: GitHub
-      href: https://github.com/aurorafaureragani
+      href: https://github.com/AuroraFaureRagani
 
     - icon: linkedin
       text: LinkedIn

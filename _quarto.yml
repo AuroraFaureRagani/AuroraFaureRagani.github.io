@@ -3,7 +3,7 @@ project:
 
 website:
   title: "Your Name"
-  site-url: "https://aurorafaureragani.github.io"
+  site-url: "https://AuroraFaureRagani.github.io"
 
   navbar:
     left:
@@ -12,7 +12,7 @@ website:
 
     right:
       - icon: github
-        href: https://github.com/aurorafaureragani
+        href: https://github.com/AuroraFaureRagani
         aria-label: GitHub
 
       - icon: linkedin
