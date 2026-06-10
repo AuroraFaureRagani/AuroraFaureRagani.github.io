@@ -1,0 +1,31 @@
+/* General page spacing */
+body {
+  line-height: 1.7;
+}
+
+/* Navigation bar */
+.navbar {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+/* Section headings */
+h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+/* Homepage profile image */
+.quarto-about-solana .about-image {
+  object-fit: cover;
+}
+
+/* Limit very long text lines */
+.quarto-about-solana .about-contents {
+  max-width: 760px;
+}
+
+/* Footer */
+.nav-footer {
+  margin-top: 3rem;
+}
