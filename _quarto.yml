@@ -1,0 +1,31 @@
+project:
+  type: website
+
+website:
+  title: "Your Name"
+  site-url: "https://aurorafaureragani.github.io"
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+    right:
+      - icon: github
+        href: https://github.com/aurorafaureragani
+        aria-label: GitHub
+
+      - icon: linkedin
+        href: https://www.linkedin.com/in/aurora-f-b29453156/
+        aria-label: LinkedIn
+
+  page-footer:
+    left: "© 2026 Aurora"
+    right: "Built with Quarto"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    smooth-scroll: true

@@ -1,0 +1,43 @@
+---
+title: "Aurora Faure Ragani"
+subtitle: "PhD candidate at Mathematical Institute of Utrecht University and Institute of Marine and Atmospheric Research Utrecht (IMAU)"
+image: images/profile.jpg
+
+about:
+  template: solana
+  image-shape: rounded
+  image-width: 18em 
+
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:a.faureragani@uu.nl
+
+    - icon: github
+      text: GitHub
+      href: https://github.com/aurorafaureragani
+
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/aurora-f-b29453156/
+
+    - icon: file-earmark-person
+      text: CV
+      href: files/cv.pdf
+---
+
+I am an applied mathematician interested in the dynamics, resilience and control of environmental systems. My research focuses on mathematical models of dryland models with spatial heterogeneity and targeted interventions in systems at risk of abrupt change.
+
+I am particularly interested in understanding how spatial structure influences degradation and recovery, and how optimisation can help identify effective intervention strategies under limited resources.
+
+## Research interests
+
+- Tipping points and resilience
+- Spatially extended dynamical systems
+- Environmental and ecological modelling
+- Optimisation and optimal control
+- Pattern formation and front dynamics
+
+## Beyond academia
+
+Beyond my academic activity as a PhD candidate, I am involved in artistic gymnastics as a coach at Turn4U (Utrecht) at various different levels. I also enjoy travelling, both at sea and on land, have a look at my most recent travels on my [Instagram](https://www.instagram.com/aurorafaureragani/).
