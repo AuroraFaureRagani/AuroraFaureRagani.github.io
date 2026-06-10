@@ -1,6 +1,5 @@
 ---
 title: "Publications"
-subtitle: "A selection of my recent publications and preprints"
 bibliography: publications.bib
 nocite: |
   @*
