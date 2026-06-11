@@ -16,6 +16,9 @@ website:
       - href: presentations.qmd
         text: Presentations
 
+      - href: cv.qmd
+        text: CV
+
       - href: beyond-academia.qmd
         text: Beyond Academia
 
