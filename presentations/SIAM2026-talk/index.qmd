@@ -1,0 +1,44 @@
+---
+title: "Optimisation of tipping pathways in a spatially heterogeneous world"
+date: 2026-05-26
+categories:
+  - Presentation
+image: thumbnail.png
+image-alt: "fig"
+event: "SIAM Conference on Nonlinear Waves and Coherent Structures (NWCS26)"
+event-url: "https://www.siam.org/conferences-events/past-event-archive/nwcs26/"
+---
+
+
+## Abstract
+
+Spatially extended multistable systems often exhibit tipping and front propagation, where small local changes can drive large-scale transitions. In many real settings, such as dryland vegetation or simplified climate subsystems, interventions can be implemented. Limited resources, however, mean that they cannot be applied everywhere. As a result, they must be spatially targeted. This raises a mathematical question: where should spatial heterogeneity be introduced to most effectively enhance resilience?
+
+We develop a constrained optimisation framework that selects an optimal spatial perturbation under PDE dynamics subject to size constraints. For illustration, we consider the one-dimensional Allen--Cahn equation with spatial heterogeneity,
+
+$$
+\frac{\partial y}{\partial t}
+=
+\frac{\partial^2 y}{\partial x^2}
++
+y(1-y^2)
++
+\mu(t)
++
+\mu_{\mathrm{het}}(x)
++
+\mu_{\mathrm{pert}}(x)
+$$ {#eq-allen-cahn}
+
+where $\mu_{\mathrm{pert}}(x)$ is the spatially dependent perturbation whose shape we optimise.
+
+Its behaviour is governed by two key quantities of multistable gradient systems: the homogeneous saddle-node bifurcation threshold, which marks the tipping point, and the Maxwell point, which controls front propagation and pinning. Our results show how the optimal perturbation interacts with these quantities: small, localised interventions can prevent collapse, arrest or reverse invading fronts, or spatially confine tipping. This framework offers a rigorous foundation for designing efficient, spatially targeted interventions in PDE models where limiting critical transitions is essential.
+
+## Materials
+
+[View presentation PDF](slides.pdf){.btn .btn-primary target="_blank"}
+
+
+## Event
+
+[SIAM Conference on Nonlinear Waves and Coherent Structures (NWCS26)](https://www.siam.org/conferences-events/past-event-archive/nwcs26/){.btn .btn-outline-secondary}

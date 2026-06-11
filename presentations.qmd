@@ -1,0 +1,14 @@
+---
+title: "Talks and posters"
+
+listing:
+  contents: presentations
+  type: grid
+  sort: "date desc"
+  categories: true
+  sort-ui: false
+  filter-ui: [title, description, categories]
+  grid-columns: 3
+  image-height: 220px
+  page-size: 12
+---

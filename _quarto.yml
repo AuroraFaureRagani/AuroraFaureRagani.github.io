@@ -10,11 +10,11 @@ website:
       - href: index.qmd
         text: Home
 
-      - href: research.qmd
-        text: Research
-
       - href: publications.qmd
         text: Publications
+
+      - href: presentations.qmd
+        text: Presentations
 
       - href: beyond-academia.qmd
         text: Beyond Academia
@@ -42,3 +42,5 @@ format:
     css: styles.css
     toc: false
     smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: true
