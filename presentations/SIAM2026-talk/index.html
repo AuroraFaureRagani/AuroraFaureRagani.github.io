@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-05-26">
 
-<title>Beyond Academia – Aurora Faure Ragani</title>
+<title>Optimisation of tipping pathways in a spatially heterogeneous world – Aurora Faure Ragani</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,23 +27,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,8 +73,37 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -83,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Aurora Faure Ragani</span>
     </a>
   </div>
@@ -94,25 +124,25 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
+    <a class="nav-link" href="../../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./presentations.html"> 
+    <a class="nav-link" href="../../presentations.html"> 
 <span class="menu-text">Presentations</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./beyond-academia.html" aria-current="page"> 
+    <a class="nav-link" href="../../beyond-academia.html"> 
 <span class="menu-text">Beyond Academia</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="./files/cv.pdf"> <i class="bi bi-file-earmark-person" role="img" aria-label="CV">
+    <a class="nav-link" href="../../files/cv.pdf"> <i class="bi bi-file-earmark-person" role="img" aria-label="CV">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -143,14 +173,23 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Beyond Academia</h1>
-</div>
+<h1 class="title">Optimisation of tipping pathways in a spatially heterogeneous world</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Presentation</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 26, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -160,9 +199,36 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Outside academia, I coach artistic gymnastics at Turn4U in Utrecht, working with gymnasts across several levels. I also enjoy travelling by land and sea. Some of my recent travels are documented here [link].</p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Spatially extended multistable systems often exhibit tipping and front propagation, where small local changes can drive large-scale transitions. In many real settings, such as dryland vegetation or simplified climate subsystems, interventions can be implemented. Limited resources, however, mean that they cannot be applied everywhere. As a result, they must be spatially targeted. This raises a mathematical question: where should spatial heterogeneity be introduced to most effectively enhance resilience?</p>
+<p>We develop a constrained optimisation framework that selects an optimal spatial perturbation under PDE dynamics subject to size constraints. For illustration, we consider the one-dimensional Allen–Cahn equation with spatial heterogeneity,</p>
+<p><span id="eq-allen-cahn"><span class="math display">\[
+\frac{\partial y}{\partial t}
+=
+\frac{\partial^2 y}{\partial x^2}
++
+y(1-y^2)
++
+\mu(t)
++
+\mu_{\mathrm{het}}(x)
++
+\mu_{\mathrm{pert}}(x)
+\tag{1}\]</span></span></p>
+<p>where <span class="math inline">\(\mu_{\mathrm{pert}}(x)\)</span> is the spatially dependent perturbation whose shape we optimise.</p>
+<p>Its behaviour is governed by two key quantities of multistable gradient systems: the homogeneous saddle-node bifurcation threshold, which marks the tipping point, and the Maxwell point, which controls front propagation and pinning. Our results show how the optimal perturbation interacts with these quantities: small, localised interventions can prevent collapse, arrest or reverse invading fronts, or spatially confine tipping. This framework offers a rigorous foundation for designing efficient, spatially targeted interventions in PDE models where limiting critical transitions is essential.</p>
+</section>
+<section id="materials" class="level2">
+<h2 class="anchored" data-anchor-id="materials">Materials</h2>
+<p><a href="slides.pdf" class="btn btn-primary" target="_blank">View presentation PDF</a></p>
+</section>
+<section id="event" class="level2">
+<h2 class="anchored" data-anchor-id="event">Event</h2>
+<p><a href="https://www.siam.org/conferences-events/past-event-archive/nwcs26/" class="btn btn-outline-secondary">SIAM Conference on Nonlinear Waves and Coherent Structures (NWCS26)</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -590,5 +656,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

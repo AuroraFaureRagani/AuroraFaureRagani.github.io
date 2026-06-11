@@ -1,5 +1,40 @@
 [
   {
+    "objectID": "presentations/SIAM2026-talk/index.html",
+    "href": "presentations/SIAM2026-talk/index.html",
+    "title": "Optimisation of tipping pathways in a spatially heterogeneous world",
+    "section": "",
+    "text": "Spatially extended multistable systems often exhibit tipping and front propagation, where small local changes can drive large-scale transitions. In many real settings, such as dryland vegetation or simplified climate subsystems, interventions can be implemented. Limited resources, however, mean that they cannot be applied everywhere. As a result, they must be spatially targeted. This raises a mathematical question: where should spatial heterogeneity be introduced to most effectively enhance resilience?\nWe develop a constrained optimisation framework that selects an optimal spatial perturbation under PDE dynamics subject to size constraints. For illustration, we consider the one-dimensional Allen–Cahn equation with spatial heterogeneity,\n\\[\n\\frac{\\partial y}{\\partial t}\n=\n\\frac{\\partial^2 y}{\\partial x^2}\n+\ny(1-y^2)\n+\n\\mu(t)\n+\n\\mu_{\\mathrm{het}}(x)\n+\n\\mu_{\\mathrm{pert}}(x)\n\\tag{1}\\]\nwhere \\(\\mu_{\\mathrm{pert}}(x)\\) is the spatially dependent perturbation whose shape we optimise.\nIts behaviour is governed by two key quantities of multistable gradient systems: the homogeneous saddle-node bifurcation threshold, which marks the tipping point, and the Maxwell point, which controls front propagation and pinning. Our results show how the optimal perturbation interacts with these quantities: small, localised interventions can prevent collapse, arrest or reverse invading fronts, or spatially confine tipping. This framework offers a rigorous foundation for designing efficient, spatially targeted interventions in PDE models where limiting critical transitions is essential."
+  },
+  {
+    "objectID": "presentations/SIAM2026-talk/index.html#abstract",
+    "href": "presentations/SIAM2026-talk/index.html#abstract",
+    "title": "Optimisation of tipping pathways in a spatially heterogeneous world",
+    "section": "",
+    "text": "Spatially extended multistable systems often exhibit tipping and front propagation, where small local changes can drive large-scale transitions. In many real settings, such as dryland vegetation or simplified climate subsystems, interventions can be implemented. Limited resources, however, mean that they cannot be applied everywhere. As a result, they must be spatially targeted. This raises a mathematical question: where should spatial heterogeneity be introduced to most effectively enhance resilience?\nWe develop a constrained optimisation framework that selects an optimal spatial perturbation under PDE dynamics subject to size constraints. For illustration, we consider the one-dimensional Allen–Cahn equation with spatial heterogeneity,\n\\[\n\\frac{\\partial y}{\\partial t}\n=\n\\frac{\\partial^2 y}{\\partial x^2}\n+\ny(1-y^2)\n+\n\\mu(t)\n+\n\\mu_{\\mathrm{het}}(x)\n+\n\\mu_{\\mathrm{pert}}(x)\n\\tag{1}\\]\nwhere \\(\\mu_{\\mathrm{pert}}(x)\\) is the spatially dependent perturbation whose shape we optimise.\nIts behaviour is governed by two key quantities of multistable gradient systems: the homogeneous saddle-node bifurcation threshold, which marks the tipping point, and the Maxwell point, which controls front propagation and pinning. Our results show how the optimal perturbation interacts with these quantities: small, localised interventions can prevent collapse, arrest or reverse invading fronts, or spatially confine tipping. This framework offers a rigorous foundation for designing efficient, spatially targeted interventions in PDE models where limiting critical transitions is essential."
+  },
+  {
+    "objectID": "presentations/SIAM2026-talk/index.html#materials",
+    "href": "presentations/SIAM2026-talk/index.html#materials",
+    "title": "Optimisation of tipping pathways in a spatially heterogeneous world",
+    "section": "Materials",
+    "text": "Materials\nView presentation PDF"
+  },
+  {
+    "objectID": "presentations/SIAM2026-talk/index.html#event",
+    "href": "presentations/SIAM2026-talk/index.html#event",
+    "title": "Optimisation of tipping pathways in a spatially heterogeneous world",
+    "section": "Event",
+    "text": "Event\nSIAM Conference on Nonlinear Waves and Coherent Structures (NWCS26)"
+  },
+  {
+    "objectID": "beyond-academia.html",
+    "href": "beyond-academia.html",
+    "title": "Beyond Academia",
+    "section": "",
+    "text": "Outside academia, I coach artistic gymnastics at Turn4U in Utrecht, working with gymnasts across several levels. I also enjoy travelling by land and sea. Some of my recent travels are documented here [link]."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Aurora Faure Ragani",
@@ -14,10 +49,10 @@
     "text": "Research interests\n\nTipping points and resilience\nSpatially extended dynamical systems\nEnvironmental and ecological modelling\nOptimisation and optimal control\nPattern formation and front dynamics"
   },
   {
-    "objectID": "beyond-academia.html",
-    "href": "beyond-academia.html",
-    "title": "Beyond Academia",
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Talks and posters",
     "section": "",
-    "text": "Outside academia, I coach artistic gymnastics at Turn4U in Utrecht, working with gymnasts across several levels. I also enjoy travelling by land and sea. Some of my recent travels are documented here [link]."
+    "text": "Optimisation of tipping pathways in a spatially heterogeneous world\n\n\n\nPresentation\n\n\n\n\n\n\n\n\n\n\nMay 26, 2026\n\n\n\n\n\n\nNo matching items"
   }
 ]
